@@ -1,0 +1,35 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 20px;
+}
+
+/*  Padding-block: 
+    Deixamos 20px apenas no top e bottom.
+
+*/
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 24px;
+    padding-block: 8px;
+}
+
+    /*Deixando uma imagem redonda, caso seja quadrada:
+        - object-fit: cover; 
+        A propriedade CSS object-fit especifica como o conteúdo de um elemento substituído deve ser ajustado à caixa estabelecida pela altura e largura usadas.
+
+      Além disso, usamos o border-radius: 50%
+    
+    */
+
+nav ul li:last-child img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}

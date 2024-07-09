@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Váriaveis de cor, fontes
+    - Desconsiderar espaços, números.
+*/
+
+:root{
+    --brand-color: #EF5F4C; 
+    --background-color: #FFFFFF; 
+    --surface-color: #F5F5F5; 
+    --skeleton-color: #D9D9D9; 
+    --shape-transparency: #ffffff90; 
+    --text-color-primary: #313131; 
+    --text-color-secondary: #6C6C6C; 
+
+    /*Fontes 
+      Observe como a variável da fonte é criada, contendo:
+        - Font-size
+        - Line-height 
+        - Font-weight
+    
+    */
+
+    --font-family: "Poppins", sans-serif;
+    --text-lg: bold 32px/125% var(--font-family);
+    --text: 16px/1.5 var(--font-family);
+    --text-md: 14px/170% var(--font-family);
+    --text-sm: 12px/170% var(--font-family); 
+
+}
+
+
+/*Destaque para observar como é aplicado as variáveis*/
+
+body{
+    font: var(--text);
+    color: var(--text-color-secondary);
+    background-color: var(--background-color);
+}
+
+
+a{ 
+    text-decoration: none;
+    color: inherit; /*Inherit: significa herdar do elemento pai*/
+}
+
+a:hover{
+    color: var(--brand-color);
+    text-decoration: underline;
+}
+
+
+.container{
+    padding-inline: 32px;
+    max-width: 1280px;
+    margin-inline: auto;
+}
+
+/*
+A propriedade 'max-width' é usada para definir a largura máxima que um elemento pode ter. 
+Isso é extremamente útil para evitar que os elementos se espalhem demais em tela maiores, o que pode prejudicar a legibilidade e a usabilidade do site
+
+Tanto o padding-inline, quanto o margin-inline, aplicam seus valores apenas nas laterias.
+
+*/
+
+.bg-surface-color{
+    background-color: var(--surface-color);
+}
+
