@@ -1,5 +1,5 @@
 <h1 align="center"> <img src="https://github.com/alvesvn/travelgram/assets/96539606/8becadd1-6b0c-4c05-a6f6-9cb4196103b2" alt="logo-repositorio" height="50" widht="50" /></h1> 
-<p align="center">Web pages desenvolvidas na <b>@rocketseat - trilhas: explorer e full-stack.</b></p>
+<p align="center">Web page desenvolvidas na <b>@rocketseat - trilhas: explorer e full-stack.</b></p>
 <p align="justify">O Travelgram é uma plataforma desenvolvida em HTML e CSS que permite aos usuários compartilhar fotos de suas viagens por diversos países. O objetivo é inspirar e conectar pessoas que amam explorar o mundo, oferecendo uma maneira visualmente atraente e fácil de exibir suas aventuras.
 </p>
  
