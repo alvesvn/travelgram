@@ -5,7 +5,7 @@
  
 
 ## Features
-Projetos realizados durante a minha formação em desenvolvimento full-stack, onde é abordado as principais linguagens web.
+Projeto realizados durante a minha formação em desenvolvimento full-stack, onde é abordado as principais linguagens web.
 -  <b>HTML5</b> — Para a estruturação do conteúdo da página.
 -  <b>CSS3</b> — Para a estilização e layout da página.
 
